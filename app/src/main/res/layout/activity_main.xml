@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/darkbutton"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dark"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/readbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="yellow" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jayesh"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aryan"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="green"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_20230110_200747_044"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
